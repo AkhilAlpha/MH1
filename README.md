@@ -19,7 +19,7 @@
 
 ### ▶️ Option 1 — Google Colab (Recommended, no install needed)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/cardiac-classifier/blob/main/MH1_Phase_3_GUI.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AkhilAlpha/MH1/blob/main/MH1_Phase_3_GUI.ipynb)
 
 > **Click the badge above** → Run All → copy the `gradio.live` public URL printed in the last cell output.
 
@@ -27,7 +27,7 @@
 
 ### ▶️ Option 2 — Replit
 
-[![Run on Replit](https://replit.com/badge/github/YOUR_USERNAME/cardiac-classifier)](https://replit.com/github/YOUR_USERNAME/cardiac-classifier)
+[![Run on Replit](https://replit.com/badge/github/AkhilAlpha/MH1)](https://replit.com/github/AkhilAlpha/MH1)
 
 > Click the badge → Replit imports the repo → press **Run** → the GUI opens in the Webview tab.
 
@@ -37,7 +37,7 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/cardiac-classifier.git
+git clone https://github.com/AkhilAlpha/MH1.git
 cd cardiac-classifier
 
 # 2. Install
