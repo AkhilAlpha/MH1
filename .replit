@@ -1,9 +1,0 @@
-run = "pip install -q -r requirements.txt && jupyter nbconvert --to script MH1_Phase_3_GUI.ipynb --stdout | python"
-entrypoint = "MH1_Phase_3_GUI.ipynb"
-
-[nix]
-channel = "stable-24_05"
-
-[[ports]]
-localPort = 7860
-externalPort = 80
