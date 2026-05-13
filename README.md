@@ -15,53 +15,8 @@
 
 ---
 
-## 🚀 Launch the GUI Interface
 
-### ▶️ Option 1 — Google Colab (Recommended, no install needed)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AkhilAlpha/MH1/blob/main/MH1_Phase_3_GUI.ipynb)
-
-> **Click the badge above** → Run All → copy the `gradio.live` public URL printed in the last cell output.
-
----
-
-### ▶️ Option 2 — Replit
-
-[![Run on Replit](https://replit.com/badge/github/AkhilAlpha/MH1)](https://replit.com/github/AkhilAlpha/MH1)
-
-> Click the badge → Replit imports the repo → press **Run** → the GUI opens in the Webview tab.
-
----
-
-### ▶️ Option 3 — Local Jupyter
-
-```bash
-# 1. Clone
-git clone https://github.com/AkhilAlpha/MH1.git
-cd cardiac-classifier
-
-# 2. Install
-pip install -r requirements.txt
-
-# 3. Run Phase 1 first (generates dataset)
-jupyter nbconvert --to notebook --execute MH1_Phase_1.ipynb
-
-# 4. Open Phase 3 and Run All
-jupyter notebook MH1_Phase_3_GUI.ipynb
-```
-
----
-
-## 🩺 Classes
-
-| Label | Class | Description |
-|-------|-------|-------------|
-| 0 | 💚 Healthy | No diagnosed cardiac condition |
-| 1 | ❤️‍🔥 CAD | Coronary Artery Disease |
-| 2 | ⚡ Arrhythmia | AF / VT / Tachy-Brady |
-| 3 | 💜 Heart Failure | Ventricular filling/ejection impairment |
-
----
 
 ## 🔬 Features (16 total)
 
@@ -83,16 +38,3 @@ Shortness of Breath · Chest Tightness · Smoking · Diabetes · Edema · Palpit
 
 ---
 
-## 📊 Model Performance
-
-| Metric | Score |
-|--------|-------|
-| Test Accuracy | ~89% |
-| F1-Macro | ~0.89 |
-| Algorithm | Random Forest (200 trees) |
-
----
-
-## ⚠️ Disclaimer
-This project uses **synthetic data** and is for **educational and research purposes only**.  
-It does **not** constitute medical advice. Always consult a qualified clinician.
