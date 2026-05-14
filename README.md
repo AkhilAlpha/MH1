@@ -10,7 +10,7 @@
 |------|-------|-------------|
 | `MH1_Phase_1.ipynb` | Phase 1 | Synthetic Dataset Generator |
 | `MH1_Phase_2.ipynb` | Phase 2 | EDA, Modelling & Evaluation |
-| `MH1_Phase_3_GUI.ipynb` | Phase 3 | Full Gradio GUI + Deployment |
+| `MH1_Phase_3_GUI` | Phase 3 | Full Gradio GUI + Deployment |
 | `requirements.txt` | — | Python dependencies |
 
 ---
